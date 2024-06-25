@@ -12,6 +12,10 @@ yarn dev
 pnpm dev
 # or
 bun dev
+
+add your postgres database link
+npx prisma  migrate  dev
+npx prisma  generate 
 ```
 # technology used
 nextjs
